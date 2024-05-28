@@ -1,0 +1,47 @@
+{
+    "registerFirstEmployeeText": "У вас немає жодного працівника. Зареєструйте першого",
+    "table": {
+        "fullNameColumnLabel": "Повне ім'я",
+        "roleColumnLabel": "Посада",
+        "fireEmployeeConfirmation": {
+            "part1": "Ви дійсно хочете звільнити",
+            "part2": "працівника \"{{fullName}}\"?"
+        }
+    },
+    "registerButtonText": "Зареєструвати",
+    "model":  {
+        "titleText": "Зареєструвати працівника",
+        "roleInput": {
+            "label": "Посада",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "menuItems": {
+                "Worker": "Працівник",
+                "Reviewer": "Перевіряючий"
+            }
+        },
+        "firstNameInput": {
+            "label": "Ім'я",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "maxLengthHelperText": "Поле повинно містити максимум {{value}} символів"
+        },
+        "lastNameInput": {
+            "label": "Прізвище",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "maxLengthHelperText": "Поле повинно містити максимум {{value}} символів"
+        },
+        "usernameInput": {
+            "label": "Користувацьке ім'я",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "minLengthHelperText": "Поле повинно містити принаймні {{value}} символів",
+            "maxLengthHelperText": "Поле повинно містити максимум {{value}} символів"
+        },
+        "passwordInput": {
+            "label": "Пароль",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "minLengthHelperText": "Поле повинно містити принаймні {{value}} символів",
+            "maxLengthHelperText": "Поле повинно містити максимум {{value}} символів"
+        },
+        "registerButtonText": "Зареєструвати",
+        "successMessage": "Реєстрація пройшла успішно"
+    }
+}

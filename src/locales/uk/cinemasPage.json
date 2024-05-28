@@ -1,0 +1,26 @@
+{
+    "createFirstCinemaText": "У вас немає жодного кінотеатру. Створіть перший",
+    "createButtonText": "Створити",
+    "modal":  {
+        "title": "Створити кінотеатр",
+        "nameInput": {
+            "label": "Назва",
+            "requiredhelperTextMessage": "Поле обов'язкове до заповнення",
+            "maxLengthHelperText": "Поле повинно містити максимум {{value}} символів"
+        },
+        "addressInput": {
+            "label": "Адреса",
+            "requiredhelperTextMessage": "Поле обов'язкове до заповнення",
+            "maxLengthHelperText": "Поле повинно містити максимум {{value}} символів"
+        },
+        "createButtonText": "Створити"
+    },
+    "table": {
+        "nameColumnLabel": "Назва",
+        "addressColumnLabel": "Адреса",
+        "deleteCinemaConfirmation": {
+            "part1": "Ви дійсно хочете видалити",
+            "part2": "кінотеатр \"{{cinemaName}}\"?"
+        }
+    }
+}

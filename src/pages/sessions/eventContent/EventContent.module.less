@@ -1,0 +1,33 @@
+@import "../../../styles/mixins.less";
+
+.eventContentCantainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    .time {
+        .paragraph--12;
+    }
+
+    .otherInfo {
+        .paragraph--11;
+    }
+}
+
+.sessionMenuItem {
+    .padding(1, 1) !important;
+    .paragraph--14 !important;
+    
+    svg {
+        .margin-right(0.5);
+    }
+}

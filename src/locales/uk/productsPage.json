@@ -1,0 +1,31 @@
+{
+    "createFirstProductText": "У вас немає жодного товару. Створіть перший.",
+    "saveChangesButtonText": "Зберегти зміни",
+    "changesSuccessfulySavedMessage": "Зміни успішно збережені",
+    "createButtonText": "Створити",
+    "model": {
+        "titleText": "Створити товар",
+        "nameInput": {
+            "label": "Назва",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "maxLengthHelperText": "Поле повинно містити максимум {{value}} символів"
+        },
+        "priceInput": {
+            "label": "Ціна",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "minValueHelperText": "Поле повинно бути більше або дорівнювати {{value}}"
+        },
+        "createButtonText": "Створити"
+    },
+    "table": {
+        "nameColumnLabel": "Назва",
+        "priceColumnLabel": "Ціна",
+        "amountColumnLabel": "Кількість",
+        "soldAmountColumnLabel": "Продано",
+        "incomeAmountColumnLabel": "Надійшло",
+        "deleteFilmConfirmation": {
+            "part1": "Ви дійсно бажаєте видалити",
+            "part2": "товар \"{{productName}}\"?"
+        }
+    }
+}

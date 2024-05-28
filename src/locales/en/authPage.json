@@ -1,0 +1,51 @@
+{
+    "loginTab": {
+        "label": "Log in",
+        "usernameInput": {
+            "label": "Username",
+            "requiredHelperText": "Field is required",
+            "minLengthHelperText": "Field must be at least {{value}} characters",
+            "maxLengthHelperText": "Field must contain a maximum of {{value}} characters"
+        },
+        "passwordInput": {
+            "label": "Password",
+            "requiredHelperText": "Field is required",
+            "minLengthHelperText": "Field must be at least {{value}} characters",
+            "maxLengthHelperText": "Field must contain a maximum of {{value}} characters"
+        },
+        "loginButtonText": "Log in",
+        "successMessage": "Successfully logged in"
+    },
+    "registerTab": {
+        "label": "Register",
+        "companyNameInput": {
+            "label": "Company name",
+            "requiredHelperText": "Field is required",
+            "maxLengthHelperText": "Field must contain a maximum of {{value}} characters"
+        },
+        "firstNameInput": {
+            "label": "First name",
+            "requiredHelperText": "Field is required",
+            "maxLengthHelperText": "Field must contain a maximum of {{value}} characters"
+        },
+        "lastNameInput": {
+            "label": "Last name",
+            "requiredHelperText": "Field is required",
+            "maxLengthHelperText": "Field must contain a maximum of {{value}} characters"
+        },
+        "usernameInput": {
+            "label": "Username",
+            "requiredHelperText": "Field is required",
+            "minLengthHelperText": "Field must be at least {{value}} characters",
+            "maxLengthHelperText": "Field must contain a maximum of {{value}} characters"
+        },
+        "passwordInput": {
+            "label": "Password",
+            "requiredHelperText": "Field is required",
+            "minLengthHelperText": "Field must be at least {{value}} characters",
+            "maxLengthHelperText": "Field must contain a maximum of {{value}} characters"
+        },
+        "registerButtonText": "Register",
+        "successMessage": "Registered successfully"
+    }
+}

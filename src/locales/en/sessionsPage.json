@@ -1,0 +1,45 @@
+{
+    "controlPanel": {
+        "todayButtonText": "Today",
+        "createButton": {
+            "text": "Create",
+            "model": {
+                "titleText": "Create session",
+                "hallInput": {
+                    "label": "Hall",
+                    "requiredHelperText": "Field is required",
+                    "emptyListText": "First, create a hall"
+                },
+                "filmInput": {
+                    "label": "Film",
+                    "requiredHelperText": "Field is required",
+                    "emptyListText": "First, create a film"
+                },
+                "startDateTinmeInput": {
+                    "label": "Start date and time"
+                },
+                "priceInput": {
+                    "label": "Price per ticket",
+                    "requiredHelperText": "Field is required",
+                    "minValueHelperText":"Field must be greater than or equal to {{value}}"
+                },
+                "createButtonText": "Create"
+            }
+        }
+    },
+    "calendar": {
+        "eventContent": {
+            "name": "\"{{filmName}}\" in \"{{hallName}}\""
+        },
+        "menuItems": {
+            "details": "Details",
+            "delete": {
+                "text": "Details",
+                "deleteFilmConfirmation": {
+                    "part1": "Do you really want to delete a session that runs",
+                    "part2": "from {{startTimeText}} to {{endTimeText}} in \"{{hallName}}\"?"
+                }
+            }
+        }
+    }
+}

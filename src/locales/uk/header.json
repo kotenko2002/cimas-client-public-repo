@@ -1,0 +1,36 @@
+{
+    "menuItems": {
+        "general": {
+            "home": "Головна"
+        },
+        "owner": {
+            "cinemas": "Кінотеатри",
+            "employees": "Співробітники"
+        },
+        "worker": {
+            "products": "Товари",
+            "films": "Фільми",
+            "sessions": "Сеанси"
+        },
+        "reviewer": {
+            "reports": "Звіти"
+        }
+    },
+    "startWorkday": {
+        "buttonText": "Почати",
+        "modal": {
+            "cinemaInput": {
+                "label": "Кінотеатр",
+                "requiredHelperText": "Поле обов'язкове до заповнення",
+                "emptyListText": "Спочатку створіть кінотеатр",
+                "item": "\"{{cinemaName}}\" на \"{{cinemaAddress}}\""
+            },
+            "buttonText": "Почати"
+        }
+    },
+    "finishWorkday": {
+        "buttonText": "Завершити",
+        "confirmationText": "Ви дійсно бажаєте завершити поточний робочий день?"
+    },
+    "logoutButtonText": "Вийти"
+}

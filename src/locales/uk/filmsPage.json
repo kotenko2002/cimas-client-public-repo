@@ -1,0 +1,24 @@
+{
+    "createFirstFilmText": "У вас немає жодного фільму. Створіть перший",
+    "table": {
+        "nameColumnLabel": "Назва",
+        "durationColumnLabel": "Тривалість",
+        "deleteFilmConfirmation": {
+            "part1": "Ви дійсно хочете видалити",
+            "part2": "фільм \"{{filmName}}\"?"
+        }
+    },
+    "createButtonText": "Створити",
+    "model":  {
+        "titleText": "Створити фільм",
+        "nameInput": {
+            "label": "Назва",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "maxLengthHelperText": "Поле повинно містити максимум {{value}} символів"
+        },
+        "durationInput": {
+            "label": "Тривалість hh:mm:ss"
+        },
+        "createButtonText": "Створити"
+    }
+}

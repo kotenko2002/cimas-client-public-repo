@@ -1,0 +1,25 @@
+@import "../../../styles/mixins.less";
+
+.cellWithIconButton {
+    width: 72px;
+}
+
+.cellWithCounter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .counterValue {
+        .margin(0, 0.5);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cellWithCounter {
+        flex-direction: column-reverse;
+
+        .counterValue {
+            .margin(0);
+        }
+    }
+}

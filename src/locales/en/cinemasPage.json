@@ -1,0 +1,26 @@
+{
+    "createFirstCinemaText": "You don't have a single cinema. Create the first one",
+    "createButtonText": "Create",
+    "modal": {
+        "title": "Create Cinema",
+        "nameInput": {
+            "label": "Name",
+            "requiredhelperTextMessage": "Field is required",
+            "maxLengthHelperText": "Field must contain a maximum of {{value}} characters"
+        },
+        "addressInput": {
+            "label": "Address",
+            "requiredhelperTextMessage": "Field is required",
+            "maxLengthHelperText": "Field must contain a maximum of {{value}} characters"
+        },
+        "createButtonText": "Create"
+    },
+    "table": {
+        "nameColumnLabel": "Name",
+        "addressColumnLabel": "Address",
+        "deleteCinemaConfirmation": {
+            "part1": "Do you really want to delete the",
+            "part2": "\"{{cinemaName}}\" cinema?"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import "../../styles/mixins.less";
+
+.hallPageContainer {
+    .margin(3, 2, 2, 2);
+    overflow-x: auto;
+
+    .notExists {
+        opacity: 0.1;
+        color: @color-black;
+    }
+    
+    .available {
+        background-color: @color-sky-blue-60;
+        color: @color-white;
+    }
+    
+    .unavailable {
+        background-color: @color-orange-60;
+        color: @color-white;
+    }
+}

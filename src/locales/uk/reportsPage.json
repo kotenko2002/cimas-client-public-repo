@@ -1,0 +1,15 @@
+{
+    "createFirstReportText": "У вас немає жодного звіту",
+    "table": {
+        "startWorkdayColumnLabel": "Початок робочого дня",
+        "endWorkdayLabel": "Кінець робочого дня",
+        "statusWorkdayLabel": {
+            "text": "Статус",
+            "types": {
+                "notReviewed": "Не переглянуто",
+                "approved": "Схвалено",
+                "rejected": "Відхилено"
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "controlPanel": {
+        "todayButtonText": "Сьогодні",
+        "createButton": {
+            "text": "Створити",
+            "model": {
+                "titleText": "Створити сесію",
+                "hallInput": {
+                    "label": "Зал",
+                    "requiredHelperText": "Поле обов'язкове до заповнення",
+                    "emptyListText": "Спочатку створіть зал"
+                },
+                "filmInput": {
+                    "label": "Фільм",
+                    "requiredHelperText": "Поле обов'язкове до заповнення",
+                    "emptyListText": "Спочатку створіть фільм"
+                },
+                "startDateTinmeInput": {
+                    "label": "Дата та час початку"
+                },
+                "priceInput": {
+                    "label": "Ціна за квиток",
+                    "requiredHelperText": "Поле обов'язкове до заповнення",
+                    "minValueHelperText": "Поле повинно бути більше або дорівнювати {{value}}"
+                },
+                "createButtonText": "Створити"
+            }
+        }
+    },
+    "calendar": {
+        "eventContent": {
+            "name": "\"{{filmName}}\" в \"{{hallName}}\""
+        },
+        "menuItems": {
+            "details": "Детальніше",
+            "delete": {
+                "text": "Видалити",
+                "deleteFilmConfirmation": {
+                    "part1": "Ви дійсно хочете видалити сеанс, що проходить",
+                    "part2": "з {{startTimeText}} до {{endTimeText}} в кінозалі\"{{hallName}}\"?"
+                }
+            }
+        }
+    }
+}

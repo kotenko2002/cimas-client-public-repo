@@ -1,0 +1,33 @@
+{
+    "createFirstHallText": "You don't have a single hall. Create the first one",
+    "table": {
+        "nameColumnLabel": "Name",
+        "numberOfSeatsLabel": "Number of seats",
+        "deleteHallConfirmation": {
+            "part1": "Do you really want to delete",
+            "part2": "\"{{hallName}}\"?"
+        }
+    },
+    "createButtonText": "Create",
+    "model":  {
+        "titleText": "Create hall",
+        "nameInput": {
+            "label": "Name",
+            "requiredHelperText": "Field is required",
+            "maxLengthHelperText": "Field must contain a maximum of {{value}} characters"
+        },
+        "numberOfRowsInput": {
+            "label": "Number of rows",
+            "requiredHelperText": "Field is required",
+            "minValueHelperText": "Field must be greater than or equal to {{value}}",
+            "maxValueHelperText": "Field must be less than or equal to {{value}}"
+        },
+        "numberOfColumnsInput": {
+            "label": "Number of columns",
+            "requiredHelperText": "Field is required",
+            "minValueHelperText": "Field must be greater than or equal to {{value}}",
+            "maxValueHelperText": "Field must be less than or equal to {{value}}"
+        },
+        "createButtonText": "Create"
+    }
+}

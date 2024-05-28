@@ -1,0 +1,15 @@
+{
+    "createFirstReportText": "You don't have a single report",
+    "table": {
+        "startWorkdayColumnLabel": "Start of workday",
+        "endWorkdayLabel": "End of workday",
+        "statusWorkdayLabel": {
+            "text": "Status",
+            "types": {
+                "notReviewed": "Not reviewed",
+                "approved": "Approved",
+                "rejected": "Rejected"
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+@import "../../styles/mixins.less";
+
+.header {
+    .padding(0, 3);
+    background-color: #28A745 !important;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .menuItems {
+        display: flex;
+        gap: 16px;
+
+        .item {
+            color: @color-white;
+        }
+
+        .item.active {
+            font-weight: 700;
+        }
+
+        .wordayButton {
+            color: @color-white !important;
+            border-color: rgba(255, 255, 255, 0.5) !important;
+        
+            &:hover {
+                border-color: @color-white !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 993px) {
+    .header {
+        .padding(0, 1.5);
+        height: 48px;
+
+        .menuItems {
+            gap: 8px;
+
+            .item {
+                .padding(0.375, 0.5);
+                .paragraph--12;
+            }
+
+            .wordayButton {
+                .paragraph--12;
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+  "name": "cimas-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fullcalendar/core": "^6.1.11",
+    "@fullcalendar/daygrid": "^6.1.11",
+    "@fullcalendar/interaction": "^6.1.11",
+    "@fullcalendar/react": "^6.1.11",
+    "@fullcalendar/timegrid": "^6.1.11",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/lab": "^5.0.0-alpha.170",
+    "@mui/material": "^5.15.15",
+    "@mui/x-date-pickers": "^7.2.0",
+    "@reduxjs/toolkit": "^2.2.3",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.96",
+    "@types/react": "^18.2.75",
+    "@types/react-dom": "^18.2.24",
+    "@types/react-pdf": "^7.0.0",
+    "@types/react-redux": "^7.1.33",
+    "axios": "^1.7.2",
+    "dayjs": "^1.11.10",
+    "i18next": "^23.11.3",
+    "i18next-resources-for-ts": "^1.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.3",
+    "react-i18next": "^14.1.1",
+    "react-loading-overlay-ts": "^2.0.2",
+    "react-pdf": "^7.7.1",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^10.0.5",
+    "typescript": "^4.9.5",
+    "@types/react-router-dom": "^5.3.3",
+    "babel-plugin-import": "^1.13.8",
+    "customize-cra": "^1.0.0",
+    "customize-cra-less-loader": "^2.0.0",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "react-app-rewired": "^2.2.1",
+    "typescript-plugin-css-modules": "^5.1.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "copies": "i18next-resources-for-ts interface -i ./src/locales/uk -o ./src/@types/resources.d.ts"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+  }
+}

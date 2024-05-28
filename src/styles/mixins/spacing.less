@@ -1,0 +1,59 @@
+@unit: 8px;
+
+// margins
+.margin(@size) {
+    margin: @size * @unit;
+}
+
+.margin(@top-bottom; @left-right;) {
+    margin: (@top-bottom * @unit) (@left-right * @unit);
+}
+
+.margin(@top; @right; @bottom; @left) {
+    margin: (@top * @unit) (@right * @unit) (@bottom * @unit) (@left * @unit);
+}
+
+.margin-top(@size) {
+    margin-top: @size * @unit;
+}
+
+.margin-bottom(@size) {
+    margin-bottom: @size * @unit;
+}
+
+.margin-left(@size) {
+    margin-left: @size * @unit;
+}
+
+.margin-right(@size) {
+    margin-right: @size * @unit;
+}
+
+// paddings
+.padding(@size) {
+    padding: @size * @unit;
+}
+
+.padding(@top-bottom; @left-right;) {
+    padding: (@top-bottom * @unit) (@left-right * @unit);
+}
+
+.padding(@top; @right; @bottom; @left) {
+    padding: (@top * @unit) (@right * @unit) (@bottom * @unit) (@left * @unit);
+}
+
+.padding-top(@size) {
+    padding-top: @size * @unit;
+}
+
+.padding-bottom(@size) {
+    padding-bottom: @size * @unit;
+}
+
+.padding-left(@size) {
+    padding-left: @size * @unit;
+}
+
+.padding-right(@size) {
+    padding-right: @size * @unit;
+}

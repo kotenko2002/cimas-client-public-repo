@@ -1,0 +1,31 @@
+@import "../../styles/mixins.less";
+
+.sessionPageContainer {
+    .margin(3, 2, 2, 2);
+    overflow-x: auto;
+    
+    .notExists {
+        opacity: 0;
+        cursor: auto !important;
+    }
+
+    .available {
+        background-color: @color-sky-blue-60;
+        color: @color-white;
+    }
+
+    .unavailable {
+        background-color: @color-orange-60;
+        color: @color-white;
+        cursor: auto !important;
+    }
+
+    .booked {
+        background-color: @color-yellow-50;
+    }
+
+    .sold {
+        background-color: @color-orange-60;
+        color: @color-white;
+    }
+}

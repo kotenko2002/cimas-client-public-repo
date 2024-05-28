@@ -1,0 +1,12 @@
+{
+    "statusSelect": {
+        "text": "Статус",
+        "types": {
+            "notReviewed": "Не переглянуто",
+            "approved": "Схвалено",
+            "rejected": "Відхилено"
+        },
+        "changesSuccessfulySavedMessage": "Зміни успішно збережені"
+    },
+    "downloadButtonText": "Завантажити"
+}

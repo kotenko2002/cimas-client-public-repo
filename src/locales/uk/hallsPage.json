@@ -1,0 +1,33 @@
+{
+    "createFirstHallText": "У вас немає жодного залу. Створіть перший",
+    "table": {
+        "nameColumnLabel": "Назва",
+        "numberOfSeatsLabel": "Кількість місць",
+        "deleteHallConfirmation": {
+            "part1": "Ви дійсно хочете видалити",
+            "part2": "кінозал \"{{hallName}}\"?"
+        }
+    },
+    "createButtonText": "Створити",
+    "model":  {
+        "titleText": "Створити зал",
+        "nameInput": {
+            "label": "Назва",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "maxLengthHelperText": "Поле повинно містити максимум {{value}} символів"
+        },
+        "numberOfRowsInput": {
+            "label": "Кількість рядів",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "minValueHelperText": "Поле повинно бути більше або дорівнювати {{value}}",
+            "maxValueHelperText": "Поле повинно бути менше або дорівнювати {{value}}"
+        },
+        "numberOfColumnsInput": {
+            "label": "Кількість колонок",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "minValueHelperText": "Поле повинно бути більше або дорівнювати {{value}}",
+            "maxValueHelperText": "Поле повинно бути менше або дорівнювати {{value}}"
+        },
+        "createButtonText": "Створити"
+    }
+}

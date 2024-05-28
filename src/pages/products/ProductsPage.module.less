@@ -1,0 +1,21 @@
+@import "../../styles/mixins.less";
+
+.productsPageContainer {
+    .margin(3, 2);
+    width: 100vw;
+    max-width: 768px;
+
+    .productButtons {
+        display: flex;
+        justify-content: flex-end;
+        gap: 16px;
+    }
+    
+    .content {
+        .margin-top(3);
+
+        .empty {
+            text-align: center;
+        }
+    }
+}

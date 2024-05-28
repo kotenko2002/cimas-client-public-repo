@@ -1,0 +1,51 @@
+{
+    "loginTab": {
+        "label": "Увійти",
+        "usernameInput": {
+            "label": "Користувацьке ім'я",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "minLengthHelperText": "Поле повинно містити принаймні {{value}} символів",
+            "maxLengthHelperText": "Поле повинно містити максимум {{value}} символів"
+        },
+        "passwordInput": {
+            "label": "Пароль",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "minLengthHelperText": "Поле повинно містити принаймні {{value}} символів",
+            "maxLengthHelperText": "Поле повинно містити максимум {{value}} символів"
+        },
+        "loginButtonText": "Увійти",
+        "successMessage": "Ви успішно увійшли в систему"
+    },
+    "registerTab": {
+        "label": "Зареєструватись",
+        "companyNameInput": {
+            "label": "Назва компанії",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "maxLengthHelperText": "Поле повинно містити максимум {{value}} символів"
+        },
+        "firstNameInput": {
+            "label": "Ім'я",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "maxLengthHelperText": "Поле повинно містити максимум {{value}} символів"
+        },
+        "lastNameInput": {
+            "label": "Прізвище",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "maxLengthHelperText": "Поле повинно містити максимум {{value}} символів"
+        },
+        "usernameInput": {
+            "label": "Користувацьке ім'я",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "minLengthHelperText": "Поле повинно містити принаймні {{value}} символів",
+            "maxLengthHelperText": "Поле повинно містити максимум {{value}} символів"
+        },
+        "passwordInput": {
+            "label": "Пароль",
+            "requiredHelperText": "Поле обов'язкове до заповнення",
+            "minLengthHelperText": "Поле повинно містити принаймні {{value}} символів",
+            "maxLengthHelperText": "Поле повинно містити максимум {{value}} символів"
+        },
+        "registerButtonText": "Зареєструватись",
+        "successMessage": "Реєстрація пройшла успішно"
+    }
+}

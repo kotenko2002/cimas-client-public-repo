@@ -1,0 +1,36 @@
+{
+    "menuItems": {
+        "general": {
+            "home": "Home"
+        },
+        "owner": {
+            "cinemas": "Cinemas",
+            "employees": "Employees"
+        },
+        "worker": {
+            "products": "Products",
+            "films": "Films",
+            "sessions": "Sessions"
+        },
+        "reviewer": {
+            "reports": "Reports"
+        }
+    },
+    "startWorkday": {
+        "buttonText": "Start",
+        "modal": {
+            "cinemaInput": {
+                "label": "Cinema",
+                "requiredHelperText": "Field is required",
+                "emptyListText": "First, create a cinema",
+                "item": "\"{{cinemaName}}\" on \"{{cinemaAddress}}\""
+            },
+            "buttonText": "Start"
+        }
+    },
+    "finishWorkday": {
+        "buttonText": "Finish",
+        "confirmationText": "Do you really want to end the current workday?"
+    },
+    "logoutButtonText": "Logout"
+}

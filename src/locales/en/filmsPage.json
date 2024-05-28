@@ -1,0 +1,24 @@
+{
+    "createFirstFilmText": "You don't have a single film. Create the first one",
+    "table": {
+        "nameColumnLabel": "Name",
+        "durationColumnLabel": "Duration",
+        "deleteFilmConfirmation": {
+            "part1": "Do you really want to delete the",
+            "part2": "\"{{filmName}}\" film?"
+        }
+    },
+    "createButtonText": "Create",
+    "model":  {
+        "titleText": "Create film",
+        "nameInput": {
+            "label": "Name",
+            "requiredHelperText": "Field is required",
+            "maxLengthHelperText": "Field must contain a maximum of {{value}} characters"
+        },
+        "durationInput": {
+            "label": "Duration hh:mm:ss"
+        },
+        "createButtonText": "Create"
+    }
+}

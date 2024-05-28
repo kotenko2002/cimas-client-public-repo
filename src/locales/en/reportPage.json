@@ -1,0 +1,12 @@
+{
+    "statusSelect": {
+        "text": "Status",
+        "types": {
+            "notReviewed": "Not reviewed",
+            "approved": "Approved",
+            "rejected": "Rejected"
+        },
+        "changesSuccessfulySavedMessage": "Changes saved successfully"
+    },
+    "downloadButtonText": "Download"
+}
